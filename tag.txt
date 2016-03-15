@@ -7,6 +7,7 @@ git tag : tag_name       	- удалить тег на удалёнке
 git push --tags origin   	- закачать все теги на удалёнку
 git tag -d                  - удаляет на локали все теги
 
+<<<<<<< Updated upstream
 git stash                   - запомнить в стеш
 git stash create name_stash
 git stash list
@@ -14,3 +15,6 @@ git stash show name         - просмотреть стеш
 
 git stash apply  name       - применить обратно стеш
 git stash pop               - взять последний стеш
+=======
+git stash 2
+>>>>>>> Stashed changes
