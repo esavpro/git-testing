@@ -11,4 +11,6 @@ git stash                   - запомнить в стеш
 git stash create name_stash
 git stash list
 git stash show name         - просмотреть стеш
+
 git stash apply  name       - применить обратно стеш
+git stash pop               - взять последний стеш
