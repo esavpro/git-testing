@@ -1,0 +1,15 @@
+git reset                                - сброс
+git clean                                - стирание
+git rm file                              - удалить файл
+git add                                  - добавить файл
+git commit --amend                       - modify your last commit
+
+https://git-scm.com/book/ru/v2
+https://git-scm.com/book/en/v2/Git-Tools-Rewriting-History
+
+git rebase -i HEAD~3                     - to edit the last three commits
+git commit --amend
+git rebase --continue
+
+git rebase --onto master server client
+git rebase master server
