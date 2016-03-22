@@ -18,3 +18,5 @@ git stash pop               - взять последний стеш
 =======
 git stash 2
 >>>>>>> Stashed changes
+
+git stash -q               - удалить стеш
